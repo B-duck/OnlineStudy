@@ -1,0 +1,12 @@
+<block wx:if="{{type === 'project'}}">
+    <view class="project-paihang">
+        <image 
+        class="level"
+        src="../../resources/300.png"
+        >
+        </image>
+        <navigator url="/pages/hot/hot">
+            <view class="paihang">实战排行榜</view>
+        </navigator>
+    </view>
+</block>

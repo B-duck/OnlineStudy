@@ -1,0 +1,41 @@
+<view class="time">
+    <view 
+        class="period {{rankPeriod === item.value? 'period-active': 'period'}}"
+        wx:for="{{rankPeriods}}"
+        wx:key="value"
+        data-type="{{item.value}}"
+        bindtap="handlePeriod"
+    >{{item.text}}</view>
+</view>
+<view class="list">
+    <view 
+        class="hot-item"
+        wx:for="{{itemList}}"
+        wx:key="text"
+    >
+        <image 
+            src="{{item.imgUrl}}"
+            class="hot-img"
+         />
+        <view class="hot-text">{{item.text}}</view>
+        <image 
+            class="hot-icon" 
+            src="../../resources/1@2x.png" 
+            wx:if="{{index === 0}}"
+        />
+        <image 
+            class="hot-icon" 
+            src="../../resources/2@2x.png" 
+            wx:elif="{{index === 1}}"
+        />
+        <image 
+            class="hot-icon" 
+            src="../../resources/3@2x.png" 
+            wx:elif="{{index === 2}}"
+        />
+        <!-- 新知识 -->
+        <view wx:else class="hot-index">
+        {{index+1}}
+        </view>
+    </view>
+</view>

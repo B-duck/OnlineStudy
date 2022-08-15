@@ -1,0 +1,32 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/person/person",
+        "pages/hot/hot",
+        "pages/detail/detail"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "在线学习",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "首页",
+                "iconPath": "./resources/home.png",
+                "selectedIconPath": "./resources/home-active.png"
+            },
+            {
+                "pagePath": "pages/person/person",
+                "text": "我的",
+                "iconPath": "./resources/my.png",
+                "selectedIconPath": "./resources/my-active.png"
+            }
+        ]
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json"
+}

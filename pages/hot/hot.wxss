@@ -1,0 +1,54 @@
+.time{
+    display: flex;
+    margin: 40rpx auto;
+    width: 240rpx;
+    height: 64rpx;
+    border: 1rpx solid #71777D;
+    border-radius: 8rpx;
+}
+.period{
+    flex: 1;
+    line-height: 52rpx;
+    margin: 6rpx;
+    text-align: center;
+    font-size: 36rpx;
+    border-radius: 6rpx;
+    color: #71777D;
+}
+.period-active{
+    color: #FFFFFF;
+    background: #71777D;
+}
+.list{
+    margin-top: 24rpx ;
+}
+.hot-item{
+    margin: 0 48rpx 40rpx 48rpx;
+    display: flex;
+}
+.hot-img{
+    width: 180rpx;
+    height: 120rpx;
+    border-radius: 6rpx;
+}
+.hot-text{
+    display: flex;
+    align-items: center;
+    width: 342rpx;
+    font-size: 28rpx;
+    color:#2B333B;
+    line-height: 40rpx;
+    margin-left: 24rpx;
+}
+.hot-icon{
+    width: 60rpx;
+    height: 52rpx;
+    margin-left: 48rpx;
+    margin-top: 34rpx;
+}
+.hot-index{
+    margin-left: 68rpx;
+    margin-top: 34rpx;
+    font-size: 36rpx;
+    color: #71777D;
+}

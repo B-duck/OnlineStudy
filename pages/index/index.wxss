@@ -1,0 +1,160 @@
+.header{
+    position: relative;
+}
+.header-input{
+    line-height: 72rpx;
+    padding: 0 36rpx;
+    margin: 22rpx 36rpx 14rpx 36rpx;
+    border: 1rpx solid #D9DDE1;
+    border-radius: 36rpx;
+    /* 闪烁条居中 */
+    text-align: center;
+    font-size: 26rpx;
+}
+.header-input-placeholder{
+    color: rgba(133,133,133,0.60);
+    text-align: center;
+}
+.header-input-icon{
+    position: absolute;
+    left: 50%;
+    top: 9rpx;
+    transform: translateX(-196rpx)
+}
+.nav{
+    display: flex;
+    line-height: 112rpx;
+}
+.nav-item{
+    position: relative;
+    /* 图标做个均分 */
+    flex: 1;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 32rpx;
+    color: #2B333B;
+}
+.nav-img{
+    position: relative;
+    top: 8rpx;
+    width: 36rpx;
+    height: 36rpx;
+}
+.nav-active{
+    position: absolute;
+    left: 90rpx ;
+    bottom: 22rpx;
+    width: 32rpx;
+    height: 8rpx;
+    border-radius: 4rpx;
+}
+.nav-active-recommend{
+    background: #e41f18;
+}
+.nav-active-activity{
+    background:#e92dca;
+}
+.nav-active-path{
+    background: #830d92;
+}
+.nav-active-project{
+    background: #b8980d;
+}
+.swiper{
+    height: 234rpx;
+}
+.swiper-item{
+    box-sizing: border-box;
+    padding: 0 6rpx;
+}
+.swiper-image{
+    /* 设计图上宽度是702rpx */
+    width: 708rpx;
+    border-radius: 12rpx;
+    height: 234rpx;
+}
+.project{
+    margin-top: 32rpx;
+}
+.project-title{
+    font-size: 28rpx;
+    font-weight: bold;
+    color: #2B333B;
+    line-height: 32rpx;
+    margin-left: 40rpx;
+}
+.project-item{
+    display: flex;
+    margin: 16rpx 24rpx;
+}
+.project-image{
+    width: 208rpx;
+    height: 136rpx;
+    border-radius: 16rpx;
+}
+.project-content{
+    flex: 1;
+    margin-left: 24rpx;
+    padding-bottom: 28rpx;
+    border-bottom: 1rpx solid #D9DDE1;
+}
+.project-text{
+    font-size: 32rpx;
+    color: #2B333B;
+    line-height: 40rpx;
+    font-weight: bold;
+}
+.project-tags{
+    margin-top: 14rpx;
+}
+.project-tags view{
+    float: left;
+    font-size: 26rpx;
+    line-height: 32rpx;
+    color: #71777D;
+    margin-right: 20rpx;
+}
+.project-price{
+    font-weight: bold;
+}
+.project-tags .project-active{
+    color: #F01414;
+    font-weight: bold;
+}
+.project-tags .project-notice{
+    background: rgba(242,13,13,0.10);
+    border-radius: 4rpx;
+    font-size: 20rpx;
+    color: #F20D0D;
+}
+.project-tag-image{
+    float: left;
+    width: 24rpx;
+    height: 22rpx;
+    margin-top: 6rpx;
+}
+.activity-item{
+    width: 702rpx;
+    height: 232rpx;
+    margin: 0 32rpx 32rpx 32rpx;
+    border-radius: 12rpx;
+}
+.project-paihang{
+    display: block;
+}
+.paihang{
+    float: left;
+    box-sizing: border-box ;
+    margin-top: 15rpx;
+    margin-left: 24rpx;
+    padding: 8rpx;
+    color: rgb(228, 196, 93);
+    border: 5rpx solid rgb(228, 196, 93);
+    border-radius: 20rpx;
+}
+.level{
+    float: left;
+    margin-left: 200rpx ;
+    width: 140rpx;
+    height: 90rpx;
+}

@@ -1,0 +1,57 @@
+<block wx:if="{{type === 'recommend'}}">
+<!-- 直接用 Swiper 轮播效果 -->
+    <swiper 
+        previous-margin="18rpx"
+        next-margin="18rpx"
+        circular = "{{true}}"
+        autoplay = "{{true}}"
+        class="swiper"
+        >
+        <swiper-item 
+        class="swiper-item"
+        wx:for="{{swiperList}}"
+        wx:key="index"
+        >
+            <image class="swiper-image" src="{{item.imgUrl}}"></image>
+        </swiper-item>
+    </swiper>
+    <!-- 实战推荐 -->
+    <view class="project">
+        <text class="project-title">实战推荐</text>
+        <!-- 一 -->
+        <view 
+            class="project-item" 
+            wx:for="{{courses}}"
+            wx:key="id"
+            data-id="{{item.id}}"
+            bindtap="handleCoures"
+        >
+            <image 
+                class="project-image"
+                src="{{item.image}}"
+            />
+            <view class="project-content">
+                <view class="project-text">{{item.text}}</view>
+                <view class="project-tags">
+                    <view 
+                        wx:if="{{item.active}}"
+                        class="project-active"
+                    >¥{{item.price}}</view>
+                    <view 
+                        wx:if="{{!item.active}}"
+                        class="project-price"
+                    >¥{{item.price}}</view>
+                    <view 
+                    class="project-notice"
+                    >{{item.notice}}</view>
+                    <view class="project-level">{{item.level}}</view>
+                    <image 
+                        class="project-tag-image"
+                        src="../../resources/user.png"
+                    />
+                    <view class="project-pay">{{item.sales}}</view>
+                </view>
+            </view>
+        </view>
+    </view>
+</block>
