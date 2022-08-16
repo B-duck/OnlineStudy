@@ -13,5 +13,7 @@
 - 实战排行的周/月
 - 个人中心
 
-![](https://github.com/B-duck/OnlineStudy/blob/main/images/WX20220816-133748%402x.png)     
+![](https://github.com/B-duck/OnlineStudy/blob/main/images/WX20220816-133748%402x.png)
+
 ![](https://github.com/B-duck/OnlineStudy/blob/main/images/QQ20220816-133952-HD.gif)
+![](https://github.com/B-duck/OnlineStudy/blob/main/images/WX20220816-134753%402x.png)
