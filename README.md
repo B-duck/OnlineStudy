@@ -12,5 +12,3 @@
 - 实战排行
 - 实战排行的周/月
 - 个人中心
-
-![WX20220816-133748@2x](https://github.com/B-duck/OnlineStudy/blob/main/images/WX20220816-133748%402x.png)
