@@ -1,1 +1,47 @@
-/* pages/person/person.wxss */
+.person{
+    display: flex;
+    align-items: center;
+    height: 150rpx;
+    padding: 32rpx;
+    background: white;
+}
+.person-img{
+    float: left;
+    width: 150rpx;
+    height: 150rpx;
+    border-radius: 50%;
+}
+.person-content{
+    margin-left: 24rpx;
+}
+.person-text{
+    margin-bottom: 20rpx;
+}
+.tags view{
+    float: left;
+    font-size: 26rpx;
+    line-height: 32rpx;
+    color: #71777D;
+    margin-right: 20rpx;
+}
+.middle{
+    height: 20rpx;
+    background: #F5F4F7;
+}
+.bottom{
+    display: flex;
+    margin: 50rpx 32rpx;
+}
+.bottom-img{
+    flex: 1;
+    float: left;
+    width: 55rpx;
+    height: 55rpx;
+}
+.bottom-text{
+    float: left;
+    width: 600rpx;
+    margin-left: 32rpx;
+    padding-bottom: 28rpx;
+    border-bottom: 1rpx solid #D9DDE1;
+}

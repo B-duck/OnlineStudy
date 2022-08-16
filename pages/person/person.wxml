@@ -1,2 +1,24 @@
-<!--pages/person/person.wxml-->
-<text>pages/person/person.wxml</text>
+<view class="container">
+    <view class="person">
+        <image class="person-img" src="../../resources/xusong.jpeg" />
+        <view class="person-content">
+            <view class="person-text">孤独的学者</view>
+            <view class="tags">
+                <view class="person-time">学习时长 120分</view>
+                <view class="person-jingyan">经验 30</view>
+            </view>
+        </view>
+    </view>
+    <view class="middle">
+    </view>
+    <view class="bottom">
+        <view 
+            class="bottom-item"
+            wx:for="{{iconList}}"
+            wx:key="imgUrl"
+        >
+            <image class="bottom-img" src="{{item.imgUrl}}" />
+            <view class="bottom-text">{{item.value}}</view>
+        </view>
+    </view>
+</view>
